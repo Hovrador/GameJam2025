@@ -72,17 +72,5 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-GGJ25_Bubble/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
-GGJ25_Bubble/Intermediate/PipInstall/Lib/site-packages/plugin_site_package.pth
-GGJ25_Bubble/Saved/Logs/GGJ25_Bubble-backup-2025.01.25-00.54.46.log
-GGJ25_Bubble/Intermediate/CachedAssetRegistry_0.bin
-GGJ25_Bubble/Saved/Config/CrashReportClient/UECC-Windows-83F923FE4A9E670EF28EBF9436486C07/CrashReportClient.ini
-GGJ25_Bubble/Saved/Logs/GGJ25_Bubble.log
-GGJ25_Bubble/Saved/ShaderDebugInfo/PCD3D_SM6/WorldGridMaterial_c1ff929ae6e37fb4/Default/DDCKey-Editor.txt
-GGJ25_Bubble/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
-GGJ25_Bubble/Saved/AutoScreenshot.png
-GGJ25_Bubble/Saved/Config/WindowsEditor/Editor.ini
-GGJ25_Bubble/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
-GGJ25_Bubble/Saved/Autosaves/PackageRestoreData.json
-GGJ25_Bubble/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
-GGJ25_Bubble/Saved/Logs/GGJ25_Bubble.log
+GGJ25_Bubble/Saved/*
+GGJ25_Bubble/Intermediate/*
