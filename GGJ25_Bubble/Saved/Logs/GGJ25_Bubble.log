@@ -2143,3 +2143,629 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.01.25-00.31.00:271][853]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.01.25-00.31.00:271][853]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.01.25-00.31.00:271][853]AssetCheck: /Game/ReyerLevel Validating asset
+[2025.01.25-00.32.58:997][370]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 316.207245
+[2025.01.25-00.32.59:997][373]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-00.32.59:997][374]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 316.875244, Update Interval: 335.743286
+[2025.01.25-00.33.27:053][987]LogChaosDD: Creating Chaos Debug Draw Scene for world World_1
+[2025.01.25-00.33.27:109][988]LogChaosDD: Creating Chaos Debug Draw Scene for world World_2
+[2025.01.25-00.33.28:316][ 53]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.01.25-00.33.28:316][ 53]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.01.25-00.33.28:316][ 53]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.01.25-00.33.28:316][ 53]LogRenderer: Display: Invalidated clipmap due to WPO threshold change. This can occur due to resolution or FOV changes.
+[2025.01.25-00.33.28:339][ 54]LogChaosDD: Creating Chaos Debug Draw Scene for world World_3
+[2025.01.25-00.33.49:964][326]LogShaderCompilers: Display: ================================================
+[2025.01.25-00.33.49:964][326]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.25-00.33.49:964][326]LogShaderCompilers: Display: Total job queries 1,662, among them cache hits 233 (14.02%), DDC hits 1,139 (68.53%), Duplicates 9 (0.54%)
+[2025.01.25-00.33.49:964][326]LogShaderCompilers: Display: Tracking 1,420 distinct input hashes that result in 1,065 distinct outputs (75.00%)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: RAM used: 629.04 KiB of 819.20 MiB budget. Usage: 0.07%
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Shaders Compiled: 281
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Jobs assigned 281, completed 281 (100%)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Average time worker was idle: 2.12 s
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Time job spent in pending queue: average 17.46 s, longest 36.03 s
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Job execution time: average 1.25 s, max 3.07 s
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Job life time (pending + execution): average 18.71 s, max 38.87
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Shader code size: average 8.586 KiB, min 2.703 KiB, max 26.703 KiB
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 46.40 s
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.05%
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Jobs were issued in 281 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Average processing rate: 6.06 jobs/sec
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Total thread time: 313.113 s
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Total thread preprocess time: 29.308 s
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Percentage time preprocessing: 9.36%
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Effective parallelization: 6.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   47 times, average 2.50 sec, max 3.02 sec, min 0.79 sec)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    3 times, average 2.35 sec, max 2.83 sec, min 1.79 sec)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   45 times, average 1.16 sec, max 1.47 sec, min 0.46 sec)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   13 times, average 1.13 sec, max 2.26 sec, min 0.57 sec)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled   49 times, average 0.76 sec, max 1.22 sec, min 0.34 sec)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 37.53% of total time (compiled   47 times, average 2.50 sec, max 3.02 sec, min 0.79 sec)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.62% of total time (compiled   45 times, average 1.16 sec, max 1.47 sec, min 0.46 sec)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.50% of total time (compiled   57 times, average 0.74 sec, max 1.36 sec, min 0.30 sec)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display:                                                 FLumenCardPS - 11.86% of total time (compiled   49 times, average 0.76 sec, max 1.22 sec, min 0.34 sec)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.83% of total time (compiled   49 times, average 0.63 sec, max 1.09 sec, min 0.29 sec)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: === Material stats ===
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Materials Translated:    191
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Material Total Translate Time: 0.19 s
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Material Translation Only: 0.07 s (38%)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.01.25-00.33.49:965][326]LogShaderCompilers: Display: ================================================
+[2025.01.25-00.33.53:754][517]LogChaosDD: Creating Chaos Debug Draw Scene for world World_4
+[2025.01.25-00.38.37:814][455]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 655.024353
+[2025.01.25-00.38.38:813][458]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-00.38.38:814][458]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 655.691101, Update Interval: 332.894073
+[2025.01.25-00.39.53:796][615]LogStreaming: Display: FlushAsyncLoading(526): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-00.39.57:630][615]LogSlate: Window 'New Level' being destroyed
+[2025.01.25-00.39.59:401][709]LogObjectTools: Deleting 1 worlds: /Game/ReyerLevel.ReyerLevel
+[2025.01.25-00.39.59:401][709]LogObjectTools: Currently 6 active worlds: /Game/ReyerLevel.ReyerLevel, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4
+[2025.01.25-00.40.01:512][709]LogSlate: Window 'Unable to delete level' being destroyed
+[2025.01.25-00.40.01:517][709]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2025.01.25-00.40.08:537][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.01.25-00.40.08:540][105]LogStreaming: Display: FlushAsyncLoading(528): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-00.40.08:546][105]LogChaosDD: Creating Chaos Debug Draw Scene for world Minimal_Default
+[2025.01.25-00.40.08:548][105]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2025.01.25-00.40.08:548][105]Cmd: MAP LOAD FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.25-00.40.08:563][105]LogWorld: UWorld::CleanupWorld for ReyerLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-00.40.08:563][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-00.40.08:574][105]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-00.40.08:576][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.01.25-00.40.08:578][105]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-00.40.08:578][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-00.40.08:588][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.01.25-00.40.08:600][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.01.25-00.40.08:606][105]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2025.01.25-00.40.08:606][105]LogChaosDD: Creating Chaos Debug Draw Scene for world Minimal_Default
+[2025.01.25-00.40.08:786][105]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.25-00.40.08:797][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.01.25-00.40.08:801][105]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.25-00.40.08:802][105]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.087ms to complete.
+[2025.01.25-00.40.12:682][324]LogStreaming: Display: FlushAsyncLoading(530): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-00.40.12:686][324]LogChaosDD: Creating Chaos Debug Draw Scene for world ReyerLevel
+[2025.01.25-00.40.12:688][324]LogObjectTools: Deleting 1 worlds: /Game/ReyerLevel.ReyerLevel
+[2025.01.25-00.40.12:688][324]LogObjectTools: Currently 6 active worlds: /Game/StarterContent/Maps/Minimal_Default.Minimal_Default, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_4
+[2025.01.25-00.40.12:702][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.01.25-00.40.14:057][324]LogSlate: Window 'Delete Assets' being destroyed
+[2025.01.25-00.40.14:061][324]LogWorld: UWorld::CleanupWorld for ReyerLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-00.40.14:061][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-00.40.14:083][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.01.25-00.40.14:096][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.01.25-00.40.14:109][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.01.25-00.40.20:550][490]LogSlate: Window 'New Level' being destroyed
+[2025.01.25-00.40.20:556][490]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.25-00.40.20:573][490]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-00.40.20:574][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-00.40.20:584][490]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-00.40.20:586][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.01.25-00.40.20:587][490]LogStreaming: Display: FlushAsyncLoading(531): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-00.40.20:595][490]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2025.01.25-00.40.20:595][490]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_2
+[2025.01.25-00.40.20:656][490]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.25-00.40.20:670][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.01.25-00.40.20:670][490]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.25-00.40.20:670][490]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.162ms to complete.
+[2025.01.25-00.40.24:417][683]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 3/2 Textures; frames since last flush: 14683
+[2025.01.25-00.40.24:417][683]LogSlate: Warning: Setting the threshold to trigger a flush to 3 non-atlased textures as there is a lot of font data being cached.
+[2025.01.25-00.40.24:418][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-00.40.28:100][683]LogSlate: Window 'Save Level As' being destroyed
+[2025.01.25-00.40.28:224][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ReyerLevel" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/ReyerLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-00.40.28:251][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.01.25-00.40.28:263][683]LogSavePackage: Moving output files for package: /Game/ReyerLevel
+[2025.01.25-00.40.28:263][683]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/ReyerLevel1A99F48A42E8BC436F56D6BD6FDADEB8.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/ReyerLevel.umap'
+[2025.01.25-00.40.28:280][683]LogFileHelpers: Saving map 'ReyerLevel' took 0.174
+[2025.01.25-00.40.28:280][683]Cmd: MAP LOAD FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/ReyerLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.01.25-00.40.28:293][683]LogWorld: UWorld::CleanupWorld for ReyerLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-00.40.28:294][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-00.40.28:305][683]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.01.25-00.40.28:306][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.01.25-00.40.28:307][683]LogStreaming: Display: FlushAsyncLoading(532): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-00.40.28:310][683]LogAudio: Display: Audio Device (ID: 1) registered with world 'ReyerLevel'.
+[2025.01.25-00.40.28:310][683]LogChaosDD: Creating Chaos Debug Draw Scene for world ReyerLevel
+[2025.01.25-00.40.28:367][683]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.01.25-00.40.28:380][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.01.25-00.40.28:386][683]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.01.25-00.40.28:386][683]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.078ms to complete.
+[2025.01.25-00.40.28:468][683]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-00.40.28:468][683]LogContentValidation: Enabled validators:
+[2025.01.25-00.40.28:468][683]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-00.40.28:468][683]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-00.40.28:468][683]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-00.40.28:468][683]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-00.40.28:468][683]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-00.40.28:468][683]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-00.40.28:468][683]AssetCheck: /Game/ReyerLevel Validating asset
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: ================================================
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: Total job queries 1,667, among them cache hits 233 (13.98%), DDC hits 1,139 (68.33%), Duplicates 9 (0.54%)
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: Tracking 1,425 distinct input hashes that result in 1,070 distinct outputs (75.09%)
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: RAM used: 630.82 KiB of 819.20 MiB budget. Usage: 0.08%
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: Shaders Compiled: 286
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: Jobs assigned 286, completed 286 (100%)
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: Average time worker was idle: 12.76 s
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: Time job spent in pending queue: average 17.15 s, longest 36.03 s
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: Job execution time: average 1.26 s, max 3.07 s
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: Job life time (pending + execution): average 18.41 s, max 38.87
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: Shader code size: average 8.589 KiB, min 2.703 KiB, max 26.703 KiB
+[2025.01.25-00.42.50:454][367]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 49.00 s
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.05%
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Jobs were issued in 286 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Average processing rate: 5.84 jobs/sec
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Total thread time: 318.898 s
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Total thread preprocess time: 29.37 s
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Percentage time preprocessing: 9.21%
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Effective parallelization: 6.51 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   48 times, average 2.49 sec, max 3.02 sec, min 0.79 sec)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    3 times, average 2.35 sec, max 2.83 sec, min 1.79 sec)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   46 times, average 1.16 sec, max 1.47 sec, min 0.46 sec)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   13 times, average 1.13 sec, max 2.26 sec, min 0.57 sec)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled   50 times, average 0.76 sec, max 1.22 sec, min 0.34 sec)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 37.47% of total time (compiled   48 times, average 2.49 sec, max 3.02 sec, min 0.79 sec)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.74% of total time (compiled   46 times, average 1.16 sec, max 1.47 sec, min 0.46 sec)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.49% of total time (compiled   58 times, average 0.74 sec, max 1.36 sec, min 0.30 sec)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display:                                                 FLumenCardPS - 11.95% of total time (compiled   50 times, average 0.76 sec, max 1.22 sec, min 0.34 sec)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.89% of total time (compiled   50 times, average 0.63 sec, max 1.09 sec, min 0.29 sec)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: === Material stats ===
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Materials Translated:    192
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Material Total Translate Time: 0.20 s
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Material Translation Only: 0.08 s (38%)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.01.25-00.42.50:455][367]LogShaderCompilers: Display: ================================================
+[2025.01.25-00.44.15:801][623]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 993.013184
+[2025.01.25-00.44.16:806][626]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-00.44.16:806][626]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 993.680237, Update Interval: 330.447693
+[2025.01.25-00.46.11:386][438]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.25-00.46.11:470][438]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.25-00.46.11:480][439]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.25-00.46.15:357][672]LogContentBrowser: Attempting asset rename: NewFolder -> _Game
+[2025.01.25-00.46.15:357][672]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.25-00.46.20:884][990]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.01.25-00.46.20:892][990]LogContentBrowser: Creating deferred item: NewFolder
+[2025.01.25-00.46.20:948][992]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.01.25-00.46.22:947][112]LogContentBrowser: Attempting asset rename: NewFolder -> Maps
+[2025.01.25-00.46.22:947][112]LogContentBrowser: End creating deferred item NewFolder
+[2025.01.25-00.46.38:198][596]LogSlate: Window 'Message' being destroyed
+[2025.01.25-00.46.38:206][596]Message dialog closed, result: Ok, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+ReyerLevel
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2025.01.25-00.46.38:213][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-00.46.38:214][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/ReyerLevel" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/ReyerLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-00.46.38:257][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.01.25-00.46.38:264][596]LogSavePackage: Moving output files for package: /Game/_Game/ReyerLevel
+[2025.01.25-00.46.38:264][596]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/ReyerLevel9FF78C4645933EA4C4874F989A2318AA.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/ReyerLevel.umap'
+[2025.01.25-00.46.38:273][596]LogFileHelpers: Saving map 'ReyerLevel' took 0.059
+[2025.01.25-00.46.38:273][596]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ReyerLevel] ([1] browsable assets)...
+[2025.01.25-00.46.38:273][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/ReyerLevel]
+[2025.01.25-00.46.38:273][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ReyerLevel" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/ReyerLevel.umap" SILENT=true
+[2025.01.25-00.46.38:274][596]LogSavePackage: Moving output files for package: /Game/ReyerLevel
+[2025.01.25-00.46.38:275][596]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/ReyerLevel64A63F604B15F8AC3F3A21B849960ADF.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/ReyerLevel.umap'
+[2025.01.25-00.46.38:276][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.756 ms (total: 958.308 ms)
+[2025.01.25-00.46.38:331][596]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.01.25-00.46.38:331][596]LogContentValidation: Display: Starting to validate 2 assets
+[2025.01.25-00.46.38:331][596]LogContentValidation: Enabled validators:
+[2025.01.25-00.46.38:331][596]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-00.46.38:331][596]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-00.46.38:331][596]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-00.46.38:331][596]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-00.46.38:331][596]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-00.46.38:331][596]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-00.46.38:331][596]AssetCheck: /Game/_Game/ReyerLevel Validating asset
+[2025.01.25-00.46.38:331][596]AssetCheck: /Game/ReyerLevel Validating asset
+[2025.01.25-00.46.42:527][758]LogSlate: Window 'Message' being destroyed
+[2025.01.25-00.46.42:531][758]Message dialog closed, result: Ok, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+ReyerLevel
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2025.01.25-00.46.42:537][758]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-00.46.42:537][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/ReyerLevel" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/Maps/ReyerLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-00.46.42:577][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.01.25-00.46.42:583][758]LogSavePackage: Moving output files for package: /Game/_Game/Maps/ReyerLevel
+[2025.01.25-00.46.42:583][758]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/ReyerLevel446ED11549753EC7B3EF3B9963F8CF4B.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/Maps/ReyerLevel.umap'
+[2025.01.25-00.46.42:592][758]LogFileHelpers: Saving map 'ReyerLevel' took 0.055
+[2025.01.25-00.46.42:592][758]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Game/ReyerLevel] ([1] browsable assets)...
+[2025.01.25-00.46.42:592][758]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Game/ReyerLevel]
+[2025.01.25-00.46.42:592][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/ReyerLevel" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/ReyerLevel.umap" SILENT=true
+[2025.01.25-00.46.42:593][758]LogSavePackage: Moving output files for package: /Game/_Game/ReyerLevel
+[2025.01.25-00.46.42:593][758]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/ReyerLevel0A74935A46522A9AA0E455ABF9777491.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/ReyerLevel.umap'
+[2025.01.25-00.46.42:594][758]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.611 ms (total: 1.01 sec)
+[2025.01.25-00.46.42:647][758]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.01.25-00.46.42:647][758]LogContentValidation: Display: Starting to validate 2 assets
+[2025.01.25-00.46.42:647][758]LogContentValidation: Enabled validators:
+[2025.01.25-00.46.42:647][758]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-00.46.42:647][758]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-00.46.42:647][758]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-00.46.42:647][758]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-00.46.42:647][758]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-00.46.42:647][758]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-00.46.42:647][758]AssetCheck: /Game/_Game/Maps/ReyerLevel Validating asset
+[2025.01.25-00.46.42:647][758]AssetCheck: /Game/_Game/ReyerLevel Validating asset
+[2025.01.25-00.47.29:873][653]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.01.25-00.47.29:881][653]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.01.25-00.47.29:886][653]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.01.25-00.47.29:897][654]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.01.25-00.47.38:417][153]LogContentBrowser: Attempting asset rename: NewBlueprint -> BubbleGameModeBase
+[2025.01.25-00.47.38:433][153]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.01.25-00.47.47:643][391]LogContentBrowser: Attempting asset rename: BubbleGameModeBase -> BubbleGameModeBase
+[2025.01.25-00.47.51:880][645]LogContentBrowser: Attempting asset rename: BubbleGameModeBase -> BubbleGameMode
+[2025.01.25-00.47.52:004][645]LogMetaData: Removing '/Game/_Game/BubbleGameMode.BubbleGameMode:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/_Game/BubbleGameModeBase.PackageMetaData'
+[2025.01.25-00.47.52:004][645]LogMetaData: Removing '/Game/_Game/BubbleGameMode.SKEL_BubbleGameMode_C:UserConstructionScript' ref from Metadata '/Game/_Game/BubbleGameModeBase.PackageMetaData'
+[2025.01.25-00.47.52:004][645]LogMetaData: Removing '/Game/_Game/BubbleGameMode.SKEL_BubbleGameMode_C' ref from Metadata '/Game/_Game/BubbleGameModeBase.PackageMetaData'
+[2025.01.25-00.47.52:004][645]LogMetaData: Removing '/Game/_Game/BubbleGameMode.BubbleGameMode_C' ref from Metadata '/Game/_Game/BubbleGameModeBase.PackageMetaData'
+[2025.01.25-00.47.52:004][645]LogMetaData: Removing '/Game/_Game/BubbleGameMode.BubbleGameMode:EventGraph.K2Node_Event_0' ref from Metadata '/Game/_Game/BubbleGameModeBase.PackageMetaData'
+[2025.01.25-00.47.52:004][645]LogMetaData: Removing '/Game/_Game/BubbleGameMode.BubbleGameMode:EventGraph.K2Node_Event_1' ref from Metadata '/Game/_Game/BubbleGameModeBase.PackageMetaData'
+[2025.01.25-00.47.52:005][645]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-00.47.52:005][645]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Game/BubbleGameMode] ([2] browsable assets)...
+[2025.01.25-00.47.52:005][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Game/BubbleGameMode]
+[2025.01.25-00.47.52:005][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/BubbleGameMode" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BubbleGameMode.uasset" SILENT=true
+[2025.01.25-00.47.52:010][645]LogSavePackage: Moving output files for package: /Game/_Game/BubbleGameMode
+[2025.01.25-00.47.52:010][645]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/BubbleGameMode6032BBD64144AEB06BEEA8B5A012AD75.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BubbleGameMode.uasset'
+[2025.01.25-00.47.52:016][645]LogFileHelpers: InternalPromptForCheckoutAndSave took 11.471 ms (total: 1.02 sec)
+[2025.01.25-00.47.52:038][645]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.01.25-00.47.52:049][645]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.01.25-00.47.52:061][645]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2025.01.25-00.47.52:165][645]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-00.47.52:165][645]LogContentValidation: Enabled validators:
+[2025.01.25-00.47.52:165][645]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-00.47.52:165][645]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-00.47.52:165][645]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-00.47.52:165][645]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-00.47.52:165][645]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-00.47.52:165][645]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-00.47.52:165][645]AssetCheck: /Game/_Game/BubbleGameMode Validating asset
+[2025.01.25-00.48.20:919][927]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.01.25-00.48.20:934][927]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.01.25-00.48.20:942][927]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.01.25-00.48.20:951][928]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.01.25-00.48.25:974][225]LogContentBrowser: Attempting asset rename: NewBlueprint -> BottleController
+[2025.01.25-00.48.25:982][225]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.01.25-00.48.35:720][646]LogContentBrowser: Attempting asset rename: BottleController -> BottlePlayerController
+[2025.01.25-00.48.35:835][646]LogMetaData: Removing '/Game/_Game/BottlePlayerController.BottlePlayerController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/_Game/BottleController.PackageMetaData'
+[2025.01.25-00.48.35:835][646]LogMetaData: Removing '/Game/_Game/BottlePlayerController.SKEL_BottlePlayerController_C:UserConstructionScript' ref from Metadata '/Game/_Game/BottleController.PackageMetaData'
+[2025.01.25-00.48.35:835][646]LogMetaData: Removing '/Game/_Game/BottlePlayerController.SKEL_BottlePlayerController_C' ref from Metadata '/Game/_Game/BottleController.PackageMetaData'
+[2025.01.25-00.48.35:835][646]LogMetaData: Removing '/Game/_Game/BottlePlayerController.BottlePlayerController_C' ref from Metadata '/Game/_Game/BottleController.PackageMetaData'
+[2025.01.25-00.48.35:835][646]LogMetaData: Removing '/Game/_Game/BottlePlayerController.BottlePlayerController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/_Game/BottleController.PackageMetaData'
+[2025.01.25-00.48.35:835][646]LogMetaData: Removing '/Game/_Game/BottlePlayerController.BottlePlayerController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/_Game/BottleController.PackageMetaData'
+[2025.01.25-00.48.35:836][646]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-00.48.35:836][646]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Game/BottlePlayerController] ([2] browsable assets)...
+[2025.01.25-00.48.35:836][646]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Game/BottlePlayerController]
+[2025.01.25-00.48.35:836][646]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/BottlePlayerController" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePlayerController.uasset" SILENT=true
+[2025.01.25-00.48.35:838][646]LogSavePackage: Moving output files for package: /Game/_Game/BottlePlayerController
+[2025.01.25-00.48.35:838][646]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/BottlePlayerController2F78EB284894E9134705189A230F722E.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePlayerController.uasset'
+[2025.01.25-00.48.35:844][646]LogFileHelpers: InternalPromptForCheckoutAndSave took 8.627 ms (total: 1.03 sec)
+[2025.01.25-00.48.35:867][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.01.25-00.48.35:879][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.01.25-00.48.35:891][646]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2025.01.25-00.48.36:000][646]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-00.48.36:000][646]LogContentValidation: Enabled validators:
+[2025.01.25-00.48.36:000][646]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-00.48.36:000][646]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-00.48.36:000][646]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-00.48.36:000][646]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-00.48.36:000][646]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-00.48.36:000][646]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-00.48.36:000][646]AssetCheck: /Game/_Game/BottlePlayerController Validating asset
+[2025.01.25-00.50.02:251][122]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1339.465332
+[2025.01.25-00.50.03:250][125]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-00.50.03:250][126]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1340.131592, Update Interval: 321.554016
+[2025.01.25-00.52.51:355][436]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.01.25-00.52.51:404][436]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.01.25-00.52.51:411][436]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.01.25-00.52.51:419][437]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.01.25-00.52.55:586][677]LogContentBrowser: Attempting asset rename: NewBlueprint -> BottlePawn
+[2025.01.25-00.52.55:596][677]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.01.25-00.54.50:612][134]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.01.25-00.54.50:616][134]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-00.54.50:704][134]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Game/BottlePawn] ([2] browsable assets)...
+[2025.01.25-00.54.50:704][134]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Game/BottlePawn]
+[2025.01.25-00.54.50:704][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/BottlePawn" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset" SILENT=true
+[2025.01.25-00.54.50:708][134]LogSavePackage: Moving output files for package: /Game/_Game/BottlePawn
+[2025.01.25-00.54.50:708][134]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/BottlePawnC270F48348542CEAFF517CA87685FA01.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset'
+[2025.01.25-00.54.50:718][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.936 ms (total: 1.13 sec)
+[2025.01.25-00.54.50:815][134]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-00.54.50:815][134]LogContentValidation: Enabled validators:
+[2025.01.25-00.54.50:815][134]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-00.54.50:815][134]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-00.54.50:815][134]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-00.54.50:815][134]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-00.54.50:815][134]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-00.54.50:815][134]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-00.54.50:816][134]AssetCheck: /Game/_Game/BottlePawn Validating asset
+[2025.01.25-00.54.56:078][442]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/BubbleGameMode.BubbleGameMode
+[2025.01.25-00.54.56:081][442]LogChaosDD: Creating Chaos Debug Draw Scene for world World_5
+[2025.01.25-00.54.56:379][442]LogStreaming: Display: FlushAsyncLoading(533): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-00.55.42:473][301]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1679.688843
+[2025.01.25-00.55.43:474][304]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-00.55.43:474][304]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1680.355103, Update Interval: 338.158508
+[2025.01.25-00.56.30:674][518]LogSlate: Window 'BubbleGameMode' being destroyed
+[2025.01.25-00.56.31:997][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.01.25-00.56.32:944][642]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-00.56.33:017][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Game/BubbleGameMode] ([2] browsable assets)...
+[2025.01.25-00.56.33:017][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Game/BubbleGameMode]
+[2025.01.25-00.56.33:017][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/BubbleGameMode" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BubbleGameMode.uasset" SILENT=true
+[2025.01.25-00.56.33:020][642]LogSavePackage: Moving output files for package: /Game/_Game/BubbleGameMode
+[2025.01.25-00.56.33:021][642]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/BubbleGameMode156794BD48E5B6A5810941BA50367C73.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BubbleGameMode.uasset'
+[2025.01.25-00.56.33:029][642]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.332 ms (total: 1.22 sec)
+[2025.01.25-00.56.33:116][642]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-00.56.33:116][642]LogContentValidation: Enabled validators:
+[2025.01.25-00.56.33:116][642]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-00.56.33:116][642]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-00.56.33:116][642]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-00.56.33:116][642]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-00.56.33:116][642]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-00.56.33:116][642]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-00.56.33:116][642]AssetCheck: /Game/_Game/BubbleGameMode Validating asset
+[2025.01.25-00.57.06:659][194]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2025.01.25-00.57.06:667][194]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_Game/Maps/ReyerLevel_Auto1
+[2025.01.25-00.57.06:667][194]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/ReyerLevel_Auto1AA3E50BA4B9286227F63968004A1301D.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/Autosaves/Game/_Game/Maps/ReyerLevel_Auto1.umap'
+[2025.01.25-00.57.06:669][194]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Game/Maps/ReyerLevel' took 0.037
+[2025.01.25-00.57.06:669][194]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2025.01.25-00.58.37:518][634]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/BottlePawn.BottlePawn
+[2025.01.25-00.58.37:520][634]LogChaosDD: Creating Chaos Debug Draw Scene for world World_6
+[2025.01.25-00.58.42:993][929]LogChaosDD: Creating Chaos Debug Draw Scene for world World_7
+[2025.01.25-00.58.45:966][ 88]LogSlate: Took 0.000501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.01.25-00.58.56:624][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.01.25-00.58.57:129][626]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-00.58.57:212][626]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/_Game/BottlePawn] ([2] browsable assets)...
+[2025.01.25-00.58.57:253][626]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Game/BottlePawn.BottlePawn]
+[2025.01.25-00.58.57:253][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Game/BottlePawn]
+[2025.01.25-00.58.57:253][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/BottlePawn" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset" SILENT=true
+[2025.01.25-00.58.57:256][626]LogSavePackage: Moving output files for package: /Game/_Game/BottlePawn
+[2025.01.25-00.58.57:257][626]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/BottlePawnAE9830C646EC8B1055D56486FB44AC65.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset'
+[2025.01.25-00.58.57:264][626]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.964 ms (total: 1.35 sec)
+[2025.01.25-00.58.57:362][626]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-00.58.57:362][626]LogContentValidation: Enabled validators:
+[2025.01.25-00.58.57:362][626]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-00.58.57:362][626]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-00.58.57:362][626]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-00.58.57:362][626]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-00.58.57:362][626]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-00.58.57:362][626]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-00.58.57:362][626]AssetCheck: /Game/_Game/BottlePawn Validating asset
+[2025.01.25-00.58.59:014][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-00.58.59:098][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/ReyerLevel" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/Maps/ReyerLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.01.25-00.58.59:130][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.01.25-00.58.59:138][719]LogSavePackage: Moving output files for package: /Game/_Game/Maps/ReyerLevel
+[2025.01.25-00.58.59:138][719]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/ReyerLevel9BD8C2D74BE43AE31D16BFBAE8B59144.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/Maps/ReyerLevel.umap'
+[2025.01.25-00.58.59:146][719]LogFileHelpers: Saving map 'ReyerLevel' took 0.048
+[2025.01.25-00.58.59:154][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 139.678 ms (total: 1.49 sec)
+[2025.01.25-00.58.59:247][719]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-00.58.59:247][719]LogContentValidation: Enabled validators:
+[2025.01.25-00.58.59:247][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-00.58.59:247][719]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-00.58.59:247][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-00.58.59:247][719]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-00.58.59:247][719]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-00.58.59:247][719]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-00.58.59:247][719]AssetCheck: /Game/_Game/Maps/ReyerLevel Validating asset
+[2025.01.25-00.59.04:194][  4]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.25-00.59.04:204][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.01.25-00.59.04:208][  4]LogPlayLevel: Display: Creating online subsystem for client :Context_9
+[2025.01.25-00.59.04:210][  4]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.01.25-00.59.04:231][  5]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_ReyerLevel
+[2025.01.25-00.59.04:234][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001916s)
+[2025.01.25-00.59.04:234][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/ReyerLevel.ReyerLevel to /Game/_Game/Maps/UEDPIE_0_ReyerLevel.ReyerLevel (0.001988s)
+[2025.01.25-00.59.04:260][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.01.25-00.59.04:261][  5]LogChaosDD: Creating Chaos Debug Draw Scene for world ReyerLevel
+[2025.01.25-00.59.04:264][  5]LogPlayLevel: PIE: World Init took: (0.002894s)
+[2025.01.25-00.59.04:265][  5]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.01.25-00.59.04:265][  5]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.25-00.59.04:265][  5]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.25-00.59.04:265][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.25-00.59.04:265][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.25-00.59.04:265][  5]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.25-00.59.04:265][  5]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.25-00.59.04:265][  5]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.25-00.59.04:265][  5]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.25-00.59.04:265][  5]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.25-00.59.04:265][  5]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.25-00.59.04:265][  5]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.25-00.59.04:268][  5]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.25-00.59.04:285][  5]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Arctis 7 Game)
+[2025.01.25-00.59.04:285][  5]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.25-00.59.04:285][  5]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.25-00.59.04:285][  5]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.25-00.59.04:286][  5]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.01.25-00.59.04:286][  5]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.01.25-00.59.04:289][  5]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.01.25-00.59.04:289][  5]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.01.25-00.59.04:289][  5]LogInit: FAudioDevice initialized with ID 2.
+[2025.01.25-00.59.04:289][  5]LogAudio: Display: Audio Device (ID: 2) registered with world 'ReyerLevel'.
+[2025.01.25-00.59.04:289][  5]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.01.25-00.59.04:297][  5]LogLoad: Game class is 'BubbleGameMode_C'
+[2025.01.25-00.59.04:298][  5]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_ReyerLevel.ReyerLevel up for play (max tick rate 60) at 2025.01.24-18.59.04
+[2025.01.25-00.59.04:299][  5]LogWorld: Bringing up level for play took: 0.001558
+[2025.01.25-00.59.04:325][  5]PIE: Server logged in
+[2025.01.25-00.59.04:326][  5]PIE: Play in editor total start time 0.126 seconds.
+[2025.01.25-00.59.27:738][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-00.59.27:738][158]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_ReyerLevel
+[2025.01.25-00.59.27:739][158]LogWorld: UWorld::CleanupWorld for ReyerLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-00.59.27:739][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-00.59.27:748][158]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.25-00.59.27:755][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-00.59.27:780][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-00.59.27:780][158]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.01.25-00.59.27:783][158]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.01.25-00.59.27:787][158]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.01.25-00.59.27:800][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.01.25-00.59.27:836][159]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: ================================================
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Total job queries 1,708, among them cache hits 248 (14.52%), DDC hits 1,139 (66.69%), Duplicates 9 (0.53%)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Tracking 1,451 distinct input hashes that result in 1,088 distinct outputs (74.98%)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: RAM used: 636.27 KiB of 819.20 MiB budget. Usage: 0.08%
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Shaders Compiled: 312
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Jobs assigned 312, completed 312 (100%)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Average time worker was idle: 47.14 s
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Time job spent in pending queue: average 15.73 s, longest 36.03 s
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Job execution time: average 1.25 s, max 3.07 s
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Job life time (pending + execution): average 16.98 s, max 38.87
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Shader code size: average 8.565 KiB, min 2.703 KiB, max 26.703 KiB
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 55.92 s
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.05%
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Jobs were issued in 312 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Average processing rate: 5.58 jobs/sec
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Total thread time: 338.515 s
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Total thread preprocess time: 30.052 s
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Percentage time preprocessing: 8.88%
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Effective parallelization: 6.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   48 times, average 2.49 sec, max 3.02 sec, min 0.79 sec)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    7 times, average 1.84 sec, max 2.83 sec, min 1.13 sec)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   50 times, average 1.13 sec, max 1.47 sec, min 0.46 sec)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   14 times, average 1.12 sec, max 2.26 sec, min 0.57 sec)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    2 times, average 0.75 sec, max 0.99 sec, min 0.51 sec)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 35.30% of total time (compiled   48 times, average 2.49 sec, max 3.02 sec, min 0.79 sec)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.69% of total time (compiled   50 times, average 1.13 sec, max 1.47 sec, min 0.46 sec)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.60% of total time (compiled   63 times, average 0.73 sec, max 1.36 sec, min 0.30 sec)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display:                                                 FLumenCardPS - 12.14% of total time (compiled   55 times, average 0.75 sec, max 1.22 sec, min 0.34 sec)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.06% of total time (compiled   55 times, average 0.62 sec, max 1.09 sec, min 0.29 sec)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: === Material stats ===
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Materials Translated:    194
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Material Total Translate Time: 0.20 s
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Material Translation Only: 0.08 s (38%)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.01.25-01.00.50:923][  2]LogShaderCompilers: Display: ================================================
+[2025.01.25-01.01.11:650][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.01.25-01.01.12:408][237]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-01.01.12:496][237]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/_Game/BottlePawn] ([2] browsable assets)...
+[2025.01.25-01.01.12:537][237]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Game/BottlePawn.BottlePawn]
+[2025.01.25-01.01.12:537][237]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Game/BottlePawn]
+[2025.01.25-01.01.12:537][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/BottlePawn" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset" SILENT=true
+[2025.01.25-01.01.12:541][237]LogSavePackage: Moving output files for package: /Game/_Game/BottlePawn
+[2025.01.25-01.01.12:541][237]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/BottlePawnADAE895946114B67760D6C82A3324DB4.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset'
+[2025.01.25-01.01.12:549][237]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.926 ms (total: 1.63 sec)
+[2025.01.25-01.01.12:646][237]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-01.01.12:646][237]LogContentValidation: Enabled validators:
+[2025.01.25-01.01.12:646][237]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-01.01.12:646][237]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-01.01.12:646][237]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-01.01.12:646][237]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-01.01.12:646][237]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-01.01.12:646][237]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-01.01.12:646][237]AssetCheck: /Game/_Game/BottlePawn Validating asset
+[2025.01.25-01.01.55:551][809]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2052.770752
+[2025.01.25-01.01.55:650][815]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.01.25-01.01.55:650][815]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2052.852783, Update Interval: 349.231232
+[2025.01.25-01.02.13:632][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.01.25-01.02.14:190][546]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-01.02.14:281][546]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/_Game/BottlePawn] ([2] browsable assets)...
+[2025.01.25-01.02.14:320][546]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Game/BottlePawn.BottlePawn]
+[2025.01.25-01.02.14:320][546]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Game/BottlePawn]
+[2025.01.25-01.02.14:320][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/BottlePawn" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset" SILENT=true
+[2025.01.25-01.02.14:323][546]LogSavePackage: Moving output files for package: /Game/_Game/BottlePawn
+[2025.01.25-01.02.14:323][546]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/BottlePawn6E15FD0B4289CC004811A7A9EA3A69AE.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset'
+[2025.01.25-01.02.14:331][546]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.048 ms (total: 1.77 sec)
+[2025.01.25-01.02.14:415][546]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-01.02.14:415][546]LogContentValidation: Enabled validators:
+[2025.01.25-01.02.14:415][546]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-01.02.14:415][546]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-01.02.14:415][546]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-01.02.14:415][546]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-01.02.14:415][546]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-01.02.14:415][546]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-01.02.14:415][546]AssetCheck: /Game/_Game/BottlePawn Validating asset
+[2025.01.25-01.03.37:868][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.01.25-01.03.38:393][415]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-01.03.38:464][415]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/_Game/BottlePawn] ([2] browsable assets)...
+[2025.01.25-01.03.38:506][415]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Game/BottlePawn.BottlePawn]
+[2025.01.25-01.03.38:506][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Game/BottlePawn]
+[2025.01.25-01.03.38:506][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/BottlePawn" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset" SILENT=true
+[2025.01.25-01.03.38:510][415]LogSavePackage: Moving output files for package: /Game/_Game/BottlePawn
+[2025.01.25-01.03.38:510][415]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/BottlePawn29359630456A35E6D83B3F9E14B995BD.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset'
+[2025.01.25-01.03.38:521][415]LogFileHelpers: InternalPromptForCheckoutAndSave took 128.476 ms (total: 1.90 sec)
+[2025.01.25-01.03.38:612][415]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-01.03.38:612][415]LogContentValidation: Enabled validators:
+[2025.01.25-01.03.38:612][415]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-01.03.38:612][415]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-01.03.38:612][415]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-01.03.38:612][415]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-01.03.38:612][415]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-01.03.38:612][415]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-01.03.38:612][415]AssetCheck: /Game/_Game/BottlePawn Validating asset
+[2025.01.25-01.04.17:132][760]LogStreaming: Display: FlushAsyncLoading(724): 1 QueuedPackages, 0 AsyncPackages
+[2025.01.25-01.06.22:513][840]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.01.25-01.06.22:579][840]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/_Game/BottlePawn] ([2] browsable assets)...
+[2025.01.25-01.06.22:591][840]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/_Game/BottlePawn.BottlePawn]
+[2025.01.25-01.06.22:591][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Game/BottlePawn]
+[2025.01.25-01.06.22:591][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/BottlePawn" FILE="../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset" SILENT=true
+[2025.01.25-01.06.22:594][840]LogSavePackage: Moving output files for package: /Game/_Game/BottlePawn
+[2025.01.25-01.06.22:595][840]LogSavePackage: Moving '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Saved/BottlePawn916678F846588B44E479D693E56FBD74.tmp' to '../../../../../../Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset'
+[2025.01.25-01.06.22:602][840]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.900 ms (total: 1.99 sec)
+[2025.01.25-01.06.22:677][840]LogContentValidation: Display: Starting to validate 1 assets
+[2025.01.25-01.06.22:677][840]LogContentValidation: Enabled validators:
+[2025.01.25-01.06.22:677][840]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.01.25-01.06.22:677][840]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.01.25-01.06.22:677][840]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.01.25-01.06.22:677][840]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.01.25-01.06.22:677][840]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.01.25-01.06.22:677][840]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.01.25-01.06.22:677][840]AssetCheck: /Game/_Game/BottlePawn Validating asset
+[2025.01.25-01.06.24:628][949]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.01.25-01.06.24:634][949]LogPlayLevel: [PlayLevel] Compiling BottlePawn before play...
+[2025.01.25-01.06.24:680][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.01.25-01.06.24:681][949]LogPlayLevel: PlayLevel: Blueprint regeneration took 48 ms (1 blueprints)
+[2025.01.25-01.06.24:681][949]LogPlayLevel: Display: Creating online subsystem for client :Context_10
+[2025.01.25-01.06.24:684][949]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2025.01.25-01.06.24:702][950]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_ReyerLevel
+[2025.01.25-01.06.24:703][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001923s)
+[2025.01.25-01.06.24:703][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/ReyerLevel.ReyerLevel to /Game/_Game/Maps/UEDPIE_0_ReyerLevel.ReyerLevel (0.001970s)
+[2025.01.25-01.06.24:731][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.01.25-01.06.24:731][950]LogChaosDD: Creating Chaos Debug Draw Scene for world ReyerLevel
+[2025.01.25-01.06.24:735][950]LogPlayLevel: PIE: World Init took: (0.002767s)
+[2025.01.25-01.06.24:736][950]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.01.25-01.06.24:736][950]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.01.25-01.06.24:736][950]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.01.25-01.06.24:736][950]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.01.25-01.06.24:736][950]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.01.25-01.06.24:736][950]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.01.25-01.06.24:736][950]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.01.25-01.06.24:736][950]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.01.25-01.06.24:736][950]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.01.25-01.06.24:736][950]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.01.25-01.06.24:736][950]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.01.25-01.06.24:736][950]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.01.25-01.06.24:739][950]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.01.25-01.06.24:753][950]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Arctis 7 Game)
+[2025.01.25-01.06.24:754][950]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.01.25-01.06.24:754][950]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.01.25-01.06.24:754][950]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.01.25-01.06.24:754][950]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.01.25-01.06.24:754][950]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.01.25-01.06.24:757][950]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.01.25-01.06.24:757][950]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.01.25-01.06.24:757][950]LogInit: FAudioDevice initialized with ID 3.
+[2025.01.25-01.06.24:757][950]LogAudio: Display: Audio Device (ID: 3) registered with world 'ReyerLevel'.
+[2025.01.25-01.06.24:757][950]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.01.25-01.06.24:760][950]LogLoad: Game class is 'BubbleGameMode_C'
+[2025.01.25-01.06.24:761][950]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_ReyerLevel.ReyerLevel up for play (max tick rate 60) at 2025.01.24-19.06.24
+[2025.01.25-01.06.24:761][950]LogWorld: Bringing up level for play took: 0.000891
+[2025.01.25-01.06.24:763][950]PIE: Server logged in
+[2025.01.25-01.06.24:765][950]PIE: Play in editor total start time 0.132 seconds.
+[2025.01.25-01.06.28:194][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-01.06.28:194][123]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_ReyerLevel
+[2025.01.25-01.06.28:194][123]LogWorld: UWorld::CleanupWorld for ReyerLevel, bSessionEnded=true, bCleanupResources=true
+[2025.01.25-01.06.28:195][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-01.06.28:198][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.01.25-01.06.28:204][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.01.25-01.06.28:228][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.01.25-01.06.28:229][123]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.01.25-01.06.28:229][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.01.25-01.06.28:232][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.01.25-01.06.28:241][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.01.25-01.06.28:273][124]LogPlayLevel: Display: Destroying online subsystem :Context_10

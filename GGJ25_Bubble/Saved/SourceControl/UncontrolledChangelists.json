@@ -6,7 +6,12 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"C:/Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/ReyerLevel.umap"
+				"C:/Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/ReyerLevel.umap",
+				"C:/Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/ReyerLevel.umap",
+				"C:/Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/Maps/ReyerLevel.umap",
+				"C:/Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BubbleGameMode.uasset",
+				"C:/Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePlayerController.uasset",
+				"C:/Projects/Unreal/GameJam2025/GGJ25_Bubble/Content/_Game/BottlePawn.uasset"
 			]
 		}
 	]
