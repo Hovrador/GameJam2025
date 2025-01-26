@@ -50,8 +50,6 @@ GGJ25_Bubble/Binaries/*
 GGJ25_Bubble/Plugins/**/Binaries/*
 
 # Builds
-GGJ25_Bubble/Build/*
-!GGJ25_Bubble/Build/Windows/*/
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !GGJ25_Bubble/Build/*/
